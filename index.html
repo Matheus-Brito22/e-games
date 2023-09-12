@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+
+    <style>
+        body{
+            background-color: rgb(17, 17, 17);
+        }
+
+
+        h1{
+            color: #a52a2a;
+        }
+
+        .navbar .nav-link, .dropdown-item a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .btn.dropdown-toggle.dropdown-split{
+            color: #fff;
+        }
+
+        .btn.dropdown-toggle.dropdown-split:hover{
+            border-bottom: 2px solid #a52a2a;
+        }
+
+        .navbar .nav-link:hover{
+            background-color: #a52a2a;
+            color: #fff;
+        }
+
+    </style>
+
+
+    <title>E-Games</title>
+</head>
+<body>
+    <header>
+
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>E-Games</h1>
+                <button  type="button" class="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <nav class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar nav-pills">
+                        <li class="nav-item"><a href="#" class="nav-link">INÍCIO</a></li>
+
+                        <li class="nav-item"><a href="#games" class="nav-link">GAMES</a></li>
+
+                        <li class="nav-item"><a href="#" class="nav-link">NOTÍCIAS</a></li>
+
+                        <li class="nav-item"><div class="btn-group">
+                            <button class="btn dropdown-toggle dropdown-split" data-bs-toggle="dropdown">QUEM SOMOS NÓS</button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item"><a href="#">Sobre a E-games</a></li>
+                                <li class="dropdown-item"><a href="#">Impacto Social</a></li>
+                                <li class="dropdown-item"><a href="#">Política da Empresa</a></li>
+                            </ul>
+                        </div></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container-fluid">
+        <div id="carousel-example" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img class="d-block w-100" src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-2935d0a3e332decb8e727fe56789b6ab" alt="" >
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="d-block w-100"  src="https://static.valorantzone.gg/news/2020/04/24154640/valorant-4.jpg" alt="" >
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="d-block w-100" src="https://wildcreed.com/wp-content/uploads/2023/03/Teamfight-Tactics-TFT-Update-13.5-Patch-Notes.jpg" alt="">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-example" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-example" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section id="games" class="mt-4">
+        <div class="container">
+            <h1>Games</h1>
+    
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                <div class="card">
+                    <img src="https://files.tecnoblog.net/wp-content/uploads/2019/05/league-of-legends-700x394.jpg" alt="">
+                    <button class="btn btn-danger rounded-0">Jogue Agora</button>
+                </div>
+               
+            </div>
+    
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                <div class="card">
+                    <img  src="https://www.esports.net/br/wp-content/uploads/sites/3/2022/12/58fe35e6-tft_set822_art_keyart-nologo_3840x2160_final_v005_Easy-Resize.com_.jpg" alt="">
+                    <button class="btn btn-danger rounded-0">Jogue Agora</button>
+                </div>
+            </div>
+    
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                <div class="card">
+                    <img src="https://static1-br.millenium.gg/articles/2/15/17/2/@/162198-nova-agente-valorant-deadlock-article_cover_bd-1.jpg" alt="">
+                    <button class="btn btn-danger rounded-0">Jogue Agora</button>
+                </div>
+            </div>
+    
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                <div class="card">
+                    <img src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt25c7cb03f8dbb71e/5f5a8d9769d060498b8e4c31/WR_meta_homepage.png" alt="">
+                    <button class="btn btn-danger rounded-0">Jogue Agora</button>
+                </div>
+            </div>
+    
+        </div>
+       
+    </section>
+
+
+
+
+
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
